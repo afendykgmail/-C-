@@ -28,8 +28,13 @@ namespace Рисуем_на_C_
             //g.DrawRectangle(Pens.Yellow, click.X, click.Y, 100, 50);    // 13:05
             g.DrawEllipse(Pens.Red, click.X, click.Y, 100, 200);
             g.DrawEllipse(Pens.Green, click.X, click.Y, 200, 100);
-            g.DrawEllipse(Pens.White, click.X, click.Y, 20, 20);
-            g.FillEllipse(Brushes.Yellow, click.X, click.Y, 50, 50);
+            g.DrawEllipse(Pens.Orange, click.X, click.Y, 55, 55);
+            g.FillEllipse(Brushes.Yellow, click.X, click.Y, 25, 25);
+            g.FillEllipse(Brushes.Blue, click.X, click.Y, 15, 15);
         }
+        //private new void MouseClick(object sender, MouseEventArgs e)
+        //{
+        //    g.FillEllipse(Brushes.Brown, click.X, click.Y, 50, 50);
+        //}
     }
 }
